@@ -1,0 +1,21 @@
+.block-hero-1 {
+  --text: #fff;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -ms-flex-align: center;
+  align-items: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  min-height: 400px;
+  background-color: $primary;
+  color: var(--text);
+  text-align: center
+}
+
+@media screen and (min-width:700px) {
+  .block-hero-1 {
+    min-height: 500px
+  }
+}

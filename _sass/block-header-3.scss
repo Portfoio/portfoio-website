@@ -1,0 +1,16 @@
+.block-header-3 {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -ms-flex-align: center;
+  align-items: center;
+  padding: 16px 32px;
+  padding: 1rem 2rem;
+  background-color: #fff
+}
+
+.block-header-3--logo img {
+  max-height: 24px;
+  max-height: 1.5rem
+}

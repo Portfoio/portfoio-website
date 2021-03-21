@@ -1,0 +1,41 @@
+input {
+  border: none;
+  border-bottom: 1px solid #000;
+  font-size: 16px;
+  font-size: 1rem;
+  padding: 12.8px;
+  padding: .8rem;
+  background: 0 0;
+  color: #000
+}
+
+input::-webkit-input-placeholder {
+  color: #666
+}
+
+input:-ms-input-placeholder {
+  color: #666
+}
+
+input::placeholder {
+  color: #666
+}
+
+input.inverted {
+  border-bottom: 1px solid #fff;
+  color: #000;
+  background: #fff;
+  border-radius: .3rem
+}
+
+input.inverted::-webkit-input-placeholder {
+  color: #ddd
+}
+
+input.inverted:-ms-input-placeholder {
+  color: #ddd
+}
+
+input.inverted::placeholder {
+  color: #ddd
+}
