@@ -1,20 +1,33 @@
-.block-feature-2 .columns {
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-align: center;
-  align-items: center;
-  -ms-flex-wrap: wrap;
-  flex-wrap: wrap;
-  text-align: center
-}
+.block-feature-2 {
 
-.block-feature-2 .column.text {
-  -ms-flex: 0 0 100%;
-  flex: 0 0 100%;
-  -ms-flex-order: 1;
-  order: 1;
-  margin-bottom: 32px;
-  margin-bottom: 2rem
+  .columns {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-align: center;
+    align-items: center;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+  }
+
+  .column.text {
+    -ms-flex: 0 0 100%;
+    flex: 0 0 100%;
+    -ms-flex-order: 1;
+    order: 1;
+    margin-bottom: 32px;
+    margin-bottom: 2rem
+  }
+
+  .rectangle {
+    background-color: $accent-background;
+    height: 110%;
+    width: 1000%;
+    position: absolute;
+    right: -4rem;
+    top: -2rem;
+    z-index: -1;
+  }
+
 }
 
 .block-feature-2 .column.media {
@@ -22,7 +35,8 @@
   flex: 0 0 100%;
   -ms-flex-order: 2;
   order: 2;
-  margin-right: 0
+  margin-right: 0;
+  text-align: center;
 }
 
 .block-feature-2 .column.text h2 {
@@ -36,22 +50,38 @@
 }
 
 @media screen and (min-width:700px) {
-  .block-feature-2 .columns {
-    text-align: left
-  }
-  .block-feature-2 .column.text {
-    -ms-flex: 0 0 50%;
-    flex: 0 0 50%;
-    -ms-flex-order: 2;
-    order: 2;
-    margin-bottom: 0
-  }
-  .block-feature-2 .column.media {
-    text-align: center;
-    -ms-flex: 0 0 calc(50% - 4rem);
-    flex: 0 0 calc(50% - 4rem);
-    margin-right: 4rem;
-    -ms-flex-order: 1;
-    order: 1
+  .block-feature-2 {
+    .columns {
+      text-align: left
+    }
+  
+    .column.text {
+      -ms-flex: 0 0 50%;
+      flex: 0 0 50%;
+      -ms-flex-order: 2;
+      order: 2;
+      margin-bottom: 0;
+
+      p {
+        margin: 16px 0 32px;
+        margin: 1rem 0 2rem;
+      }
+    }
+    
+    .column.media {
+      text-align: center;
+      -ms-flex: 0 0 calc(50% - 4rem);
+      flex: 0 0 calc(50% - 4rem);
+      margin-right: 4rem;
+      -ms-flex-order: 1;
+      order: 1
+    }
+    
+    .rectangle {
+      width: 80%;
+      top: -25rem;
+      height: 300%;
+      border-radius: 50px 0 0 50px;
+    }
   }
 }

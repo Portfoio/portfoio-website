@@ -4,7 +4,8 @@ h1 {
   font-weight: 700;
   letter-spacing: -1.6px;
   letter-spacing: -.1rem;
-  line-height: 1
+  line-height: 1;
+  color: $text-color-headline;
 }
 
 h1 span.light {
@@ -27,14 +28,14 @@ h3 {
 }
 
 h3, p {
-  font-size: 16px;
-  font-size: 1rem;
-  line-height: 1.35
+  font-size: 20px;
+  font-size: 1.3rem;
+  line-height: 1.5;
 }
 
 p {
   font-weight: 400;
-  color: #666
+  color: $text-color;
 }
 
 @media screen and (min-width:700px) {

@@ -67,14 +67,15 @@
     flex: 0 0 55%;
     display: -ms-flexbox;
     display: flex;
-    -ms-flex-pack: center;
-    justify-content: center;
-    -ms-flex-align: center;
-    align-items: center;
+    -ms-flex-pack: end;
+    justify-content: flex-end;
+    -ms-flex-align: end;
+    align-items: end;
     margin-top: 0
   }
   .block-hero-2 .column.media img {
-    width: 45vw;
+    width: auto;
     max-width: 520px;
+    max-height: 60vh;
   }
 }

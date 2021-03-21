@@ -5,8 +5,8 @@
   justify-content: space-between;
   -ms-flex-align: center;
   align-items: center;
-  padding: 16px 32px;
-  padding: 1rem 2rem;
+  padding: 8px 32px;
+  padding: 0.5rem 2rem;
   
   position: fixed;
   width: 100%;
@@ -15,15 +15,12 @@
 }
 
 .block-header-2--logo img {
-  max-height: 24px;
-  max-height: 3rem
+  max-height: 28px;
+  max-height: 2rem
 }
 
 .block-header-2--nav {
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-align: baseline;
-  align-items: baseline
+  display: none;
 }
 
 .block-header-2 .nav-item {
@@ -59,4 +56,18 @@
 .block-header-2--cta {
   margin-left: 32px;
   margin-left: 2rem
+}
+
+@media screen and (min-width:700px) {
+  .block-header-2--logo img {
+    max-height: 24px;
+    max-height: 3rem
+  }
+
+  .block-header-2--nav {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-align: baseline;
+    align-items: baseline
+  }
 }

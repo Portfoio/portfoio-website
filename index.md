@@ -18,46 +18,61 @@ page_sections:
 
   - template: hero-banner-w-image
     block: hero-2
-    slug: features
-    headline: Diversify your Portfolio with <strong>AI</strong>
+    slug: hero
+    headline: <strong>Diversify your Portfolio</strong><br> with the power of AI
     content:
-      Upload your portfolio and our AI shows you options to diversify your portfolio.
     cta:
       enabled: true
       url: http://localhost:8080
       button_text: "Go to the Tool"
     image:
-      image: "/assets/images/DashboardPortfolioDetail.png"
+      image: "/assets/images/iphone-mock.png"
       alt_text: Product Shot
 
 
   - template: content-feature
     block: feature-1
     media_alignment: Left
-    slug: diversify
-    headline:
-      Find out how well diversified your portfolio is
-    content:
-      Quickly get insights into your portfolio and find assets which complements your portfolio.
+    slug: generate
+    headline: Generate optimized Portfolios
+    content: Choose your settings and prefernces, relax and let our algorithm do your work. Choose from a set of optimized portfolios based on your risk return preferneces.
     media:
-      image: "/assets/images/iphone-mock.png"
+      image: "/assets/images/mac-mock.png"
       alt_text: Mobile view of the Dashboard
+    cta:
+      enabled: true
+      url: http://localhost:8080
+      button_text: "Try the Beta"
 
 
   - template: content-feature
     block: feature-1
     media_alignment: Right
-    slug: how-does-it-work
-    headline:
-      How does it work?
-    content:
-      Our AI is based on state-of-the-art algorithms that are otherwise only used by professional hedge fund managers.
-      <br>
-      <br>
-      This algorithm compares thousands of assets to your portfolio and picks the ones that best complement and balance your portfolio.
+    slug: diversify
+    headline: Diversify your Portfolio
+    content: Tell us what assets your already bought and recieve possibilities to diversity your portfolio and lower the risk of fluctuations.
     media:
       image: "/assets/images/iphone-mock.png"
       alt_text: Mobile view of the Dashboard
+    cta:
+      enabled: true
+      url: http://localhost:8080/register
+      button_text: "Register"
+
+
+  - template: 3-column-text
+    block: three-column-1
+    slug: how-does-it-work
+    headline: How does it work?
+    col_1:
+      headline: Choose your specification
+      content: Select your country, the asset type you are interested in and the timerage of which the AI learns.
+    col_2:
+      headline: Our AI learns from the past
+      content: Our AI, based on genetic algorithms, searches thorugh hundredthousand of assets and learns to combine these into diversified portfolios.
+    col_3:
+      headline: Invest into your portfolios
+      content: You can directly start investing into your calculated optimized portfolios, through our service. 
 
 
   - template: 2-column-text
