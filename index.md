@@ -25,7 +25,7 @@ page_sections:
     cta:
       enabled: true
       url: http://localhost:8080
-      button_text: "Start"
+      button_text: "Go to the Tool"
     image:
       image: "/assets/images/DashboardPortfolioDetail.png"
       alt_text: Product Shot
