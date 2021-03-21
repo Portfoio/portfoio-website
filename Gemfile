@@ -18,7 +18,6 @@ gem "jekyll", "~> 3.9"
 group :jekyll_plugins do
   gem "kramdown-parser-gfm"
   gem "jekyll-feed"
-  gem "jekyll-menus"
 end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem

@@ -1,12 +1,10 @@
 title: Porftoio - AI based Portfolio optimizer
+url: "https://portfoio.github.io/portfoio-website/"
+baseurl:
 author: Portfoio
 email: tillhoffmann@gmail.com
 description: >-
-  ubuild-jekyll is a Jekyll theme desgined to work with Forestry's Blocks feature.
-  This theme provides a set of page-level components and a pre-configured Forestry Blocks UI
-  that will empower content editors to construct their own webpages.
-baseurl: ""
-url: "https://portfoio.github.io/portfoio-website/"
+  Portfoio is an AI based calculator to optimize Portfolios
 
 # Build settings
 defaults:
@@ -17,5 +15,3 @@ defaults:
 
 plugins:
   - jekyll-feed
-  - jekyll-menus
-
