@@ -5,7 +5,7 @@
   justify-content: center;
   min-height: 100vh;
   // background-color: $primary;
-  color: $text-color;
+  color: $font-color;
   background-repeat: no-repeat;
   background-size: auto 100%;
   background-position: 100%
@@ -47,7 +47,7 @@
 .block-hero-2 .column.text p {
   margin: 16px 0 32px;
   margin: 1rem 0 2rem;
-  color: $text-color;
+  color: $font-color;
   font-size: 16px;
   font-size: 1rem
 }

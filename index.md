@@ -74,15 +74,6 @@ page_sections:
       headline: Invest into your portfolios
       content: You can directly start investing into your calculated optimized portfolios, through our service. 
 
-
-  - template: 2-column-text
-    block: testimonial
-    slug: testimonial
-    author: John Doe
-    quote: With the help of Porftoio, I was able to diversify my portfolio very quickly and easily without having to shift everything around.
-    media:
-      image: https://images.pexels.com/photos/3785079/pexels-photo-3785079.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260
-      alt_text: Profile photo
  
   - template: simple-footer
     block: footer-1

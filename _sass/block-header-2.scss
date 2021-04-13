@@ -1,3 +1,4 @@
+
 .block-header-2 {
   display: -ms-flexbox;
   display: flex;
@@ -10,7 +11,6 @@
   
   position: fixed;
   width: 100%;
-  background-color: $background;
   z-index: 100;
 }
 
@@ -28,8 +28,8 @@
   list-style: none;
   margin-right: 16px;
   margin-right: 1rem;
-  font-size: 13.6px;
-  font-size: .85rem
+  font-size: 17px;
+  font-size: 1rem;
 }
 
 .block-header-2 .nav-item.active a {

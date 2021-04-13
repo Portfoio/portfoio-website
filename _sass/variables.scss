@@ -1,12 +1,18 @@
-
-
-$primary: #000000;
-
 $background: #fff;
-$accent-background: #ececec;
+$accent-background: #F2F2F2;
+$input-background: #ffffff;
+$primary: #686868;
+$accent: #222222;
 
-$selection: #d4d4d460;
+$font-color: #383838;
+$font-color-headline: #000;
+$font-color-inverted: #f6fbfc;
 
-$text-color-headline: #000;
-$text-color: #474747;
-$text-color-inverted: #fff;
+$selection: #94949460;
+
+$error: #D00000;
+$warn: #FFBA08;
+$success: #0A8754;
+
+
+$shadow: 0 0 0.5rem rgba(0, 0, 0, 0.25);

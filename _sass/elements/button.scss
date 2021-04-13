@@ -1,8 +1,8 @@
-.button {
+.button, button {
   outline: 0;
   border: 0;
   padding: 12.8px 24px;
-  padding: .8rem 1.5rem;
+  padding: .6rem 1.2rem;
   border-radius: .3rem;
   font-size: 12.8px;
   font-size: 1rem;
@@ -14,24 +14,24 @@
   -ms-user-select: none;
   user-select: none;
   text-decoration: none;
+  
+  &:hover {
+    background-color: $selection;
+  }
+}
+
+.button.primary, button.primary {
+  border: 1.5px $primary solid;
+  background-color: $background;
+  color: $font-color-headline;
 
   &:hover {
     background-color: $selection;
   }
 }
 
-.button.primary {
-  border: 1.5px $primary solid;
-  color: $text-color-headline;
-}
-
-.button.secondary {
-  background-color: transparent;
-  color: $primary;
-}
-
-.button.small {
-  font-size: 14px;
+.button.small, button.small {
+  font-size: 16px;
   font-size: 1rem;
   padding: 8px 16px;
   padding: .5rem 1rem
