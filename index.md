@@ -34,8 +34,9 @@ page_sections:
     block: feature-1
     media_alignment: Left
     slug: generate
+    rectangle: true
     headline: Generate optimized Portfolios
-    content: Choose your settings and prefernces, relax and let our algorithm do your work. Choose from a set of optimized portfolios based on your risk return preferneces.
+    content: Choose your settings for our AI, relax and let our AI do your work. Choose from a set of optimized portfolios based on your preferneces.
     media:
       image: "/assets/images/mac-mock.png"
       alt_text: Mobile view of the Dashboard
@@ -60,22 +61,41 @@ page_sections:
       button_text: "Register"
 
 
+  - template: content-feature
+    block: feature-1
+    media_alignment: Left
+    slug: recommendation
+    headline: Find the perfect ETF
+    content: Tell us what your preferences are and what you bought and we show you a optimal ETF that matches your portfolio.
+    media:
+      image: "/assets/images/mac-mock.png"
+      alt_text: Mobile view of the Dashboard
+    cta:
+      enabled: true
+      url: http://localhost:8080/register
+      button_text: "Register"
+
+
   - template: 3-column-text
     block: three-column-1
     slug: how-does-it-work
     headline: How does it work?
     col_1:
       headline: Choose your specification
-      content: Select your country, the asset type you are interested in and the timerage of which the AI learns.
+      content: Tell our AI what you are looking for. Select what asset types you are looking for (ETFs, Stocks, Crypotcurrencies).
     col_2:
-      headline: Our AI learns from the past
+      headline: Our AI learns constantly
       content: Our AI, based on genetic algorithms, searches thorugh hundredthousand of assets and learns to combine these into diversified portfolios.
     col_3:
       headline: Invest into your portfolios
-      content: You can directly start investing into your calculated optimized portfolios, through our service. 
+      content: You can directly start investing into your calculated optimized portfolios. No need for switching the broker, you can invest by your current broker.
 
  
   - template: simple-footer
-    block: footer-1
-    content: Made with ❤︎ in Münster
+    block: footer-2
+    col_1: <a href="">Impressum</a>  </br> <a href="">About us</a>
+    col_2: Made with ❤︎ in Münster
+    cta:
+      url: http://localhost:8080/register
+      button_text: Register
 ---

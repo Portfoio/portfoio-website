@@ -14,6 +14,8 @@
           {% endif %}
         </div>
     </div>
-    <div class="rectangle"></div>
+    {% if section.rectangle and section.rectangle == true %}
+      <div class="rectangle"></div>
+    {% endif %}
   </div>
 </section>
