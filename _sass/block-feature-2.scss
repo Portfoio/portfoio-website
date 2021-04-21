@@ -51,7 +51,7 @@
     height: 110%;
     width: calc(100% + 8rem);
     position: absolute;
-    right: -8rem;
+    right: -2rem;
     top: -2rem;
     z-index: -1;
   }
@@ -85,6 +85,7 @@
       width: 80%;
       top: -25rem;
       height: 300%;
+      right: -8rem;
       border-radius: 50px 0 0 50px;
     }
   }
