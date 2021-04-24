@@ -15,12 +15,11 @@ page_sections:
       url: http://localhost:8080/register
       button_text: Register
 
-
   - template: hero-banner-w-image
     block: hero-2
     slug: hero
     headline: <strong>Diversify your Portfolio</strong><br> with the power of AI
-    content:
+    content: Invest safely and maximize your profit.
     cta:
       enabled: true
       url: http://localhost:8080
@@ -29,14 +28,21 @@ page_sections:
       image: "/assets/images/iphone-mock.png"
       alt_text: Product Shot
 
+  - template: block-headline-list
+    block: headline-list
+    slug: problem
+    headlines:
+      - line: You have lost track of all the investment possibilities?
+      - line: You have difficulties to diversify your portfolio?
+      - line: You want to find the perfect balance between risk and profit?
 
   - template: content-feature
     block: feature-1
     media_alignment: Left
     slug: generate
     rectangle: true
-    headline: Generate optimized Portfolios
-    content: Choose your settings for our AI, relax and let our AI do your work. Choose from a set of optimized portfolios based on your preferneces.
+    headline: Portfoio generates optimized Portfolios.
+    content: Choose your settings and let our AI search tens of thousands of assets for you. Our AI generates multiple Portfolios for you. The portfolios differ in their risk class. Choose your risk tolerance and find the optimal portfolio for you.
     media:
       image: "/assets/images/mac-mock.png"
       alt_text: Mobile view of the Dashboard
@@ -50,8 +56,8 @@ page_sections:
     block: feature-1
     media_alignment: Right
     slug: diversify
-    headline: Diversify your Portfolio
-    content: Tell us what assets your already bought and recieve possibilities to diversity your portfolio and lower the risk of fluctuations.
+    headline: Professional tools are not only for hedge fund managers 
+    content: Our tool uses the same technologies that hedge fund managers use. It helps you control and optimize risk and return. By not having to dive into countless sectors just to know how you can diversify your portfolio.
     media:
       image: "/assets/images/iphone-mock.png"
       alt_text: Mobile view of the Dashboard
@@ -65,8 +71,8 @@ page_sections:
     block: feature-1
     media_alignment: Left
     slug: recommendation
-    headline: Find the perfect ETF
-    content: Tell us what your preferences are and what you bought and we show you a optimal ETF that matches your portfolio.
+    headline: Get a financial advantage
+    content: Our AI helps you gain insight into new information that can give you a financial advantage. With our tools, you can take charge of your investment decision. In addition, you will see how you can secure your investments by investing in a diversified way.
     media:
       image: "/assets/images/mac-mock.png"
       alt_text: Mobile view of the Dashboard
@@ -81,14 +87,14 @@ page_sections:
     slug: how-does-it-work
     headline: How does it work?
     col_1:
-      headline: Choose your specification
-      content: Tell our AI what you are looking for. Select what asset types you are looking for (ETFs, Stocks, Crypotcurrencies).
+      headline: Inspired by nature
+      content: Our AI is based on genetic algorithms and it learns like evolution - so it never stops learning.
     col_2:
-      headline: Our AI learns constantly
-      content: Our AI, based on genetic algorithms, searches thorugh hundredthousand of assets and learns to combine these into diversified portfolios.
+      headline: Profit and risk as a basis
+      content: The fundamental drivers of our AI are risk and profit. So you always get optimized results for sure.
     col_3:
-      headline: Invest into your portfolios
-      content: You can directly start investing into your calculated optimized portfolios. No need for switching the broker, you can invest by your current broker.
+      headline: Your individual tool
+      content: We are not a robo-adviser. Portfoio is rather a tool that you can use independently from your broker. It helps you to find an investment strategy and optimize your research.
 
  
   - template: simple-footer

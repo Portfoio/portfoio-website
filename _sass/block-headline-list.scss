@@ -1,0 +1,21 @@
+.block-headline-list .columns {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  margin: -32px;
+  margin: -2rem
+}
+
+.block-headline-list .column {
+  -ms-flex: 0 0 calc(100% - 4rem);
+  flex: 0 0 calc(100% - 4rem);
+  margin: 32px;
+  margin: 2rem;
+  text-align: center
+}
+
+.block-headline-list .column h3 {
+  margin-bottom: 32px;
+  margin-bottom: 2rem
+}

@@ -13,8 +13,8 @@ h1 span.light {
 }
 
 h2 {
-  font-size: 28px;
-  font-size: 2.5rem;
+  font-size: 23px;
+  font-size: 1.5rem;
   font-weight: 600;
 }
 
@@ -25,12 +25,13 @@ h2 span.light {
 h3 {
   font-weight: 600;
   letter-spacing: 0;
-}
-
-h3, p {
   font-size: 20px;
   font-size: 1.2rem;
   line-height: 1.5;
+}
+
+p {
+  font-size: 1rem;
 }
 
 p {
@@ -47,5 +48,11 @@ p {
 @media screen and (min-width:1000px) {
   h1 {
     font-size: 3rem
+  }
+
+  h2 {
+    font-size: 28px;
+    font-size: 2rem;
+    font-weight: 600;
   }
 }
