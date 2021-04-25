@@ -23,7 +23,7 @@ page_sections:
     cta:
       enabled: true
       url: http://localhost:8080
-      button_text: "Go to the Tool"
+      button_text: Get early access
     image:
       image: "/assets/images/iphone-mock.png"
       alt_text: Product Shot
@@ -42,14 +42,10 @@ page_sections:
     slug: generate
     rectangle: true
     headline: Portfoio generates optimized Portfolios.
-    content: Choose your settings and let our AI search tens of thousands of assets for you. Our AI generates multiple Portfolios for you. The portfolios differ in their risk class. Choose your risk tolerance and find the optimal portfolio for you.
+    content: Choose your settings and let our AI search over ten thousand of assets for you. Our AI generates multiple Portfolios for you. The portfolios differ in their risk class. Choose your risk tolerance and find the optimal portfolio for you.
     media:
-      image: "/assets/images/mac-mock.png"
+      image: "/assets/images/declutter.png"
       alt_text: Mobile view of the Dashboard
-    cta:
-      enabled: true
-      url: http://localhost:8080
-      button_text: "Try the Beta"
 
 
   - template: content-feature
@@ -59,12 +55,8 @@ page_sections:
     headline: Professional tools are not only for hedge fund managers 
     content: Our tool uses the same technologies that hedge fund managers use. It helps you control and optimize risk and return. By not having to dive into countless sectors just to know how you can diversify your portfolio.
     media:
-      image: "/assets/images/iphone-mock.png"
+      image: "/assets/images/growth.png"
       alt_text: Mobile view of the Dashboard
-    cta:
-      enabled: true
-      url: http://localhost:8080/register
-      button_text: "Register"
 
 
   - template: content-feature
@@ -74,12 +66,8 @@ page_sections:
     headline: Get a financial advantage
     content: Our AI helps you gain insight into new information that can give you a financial advantage. With our tools, you can take charge of your investment decision. In addition, you will see how you can secure your investments by investing in a diversified way.
     media:
-      image: "/assets/images/mac-mock.png"
+      image: "/assets/images/woman-tool.png"
       alt_text: Mobile view of the Dashboard
-    cta:
-      enabled: true
-      url: http://localhost:8080/register
-      button_text: "Register"
 
 
   - template: 3-column-text
@@ -95,13 +83,20 @@ page_sections:
     col_3:
       headline: Your individual tool
       content: We are not a robo-adviser. Portfoio is rather a tool that you can use independently from your broker. It helps you to find an investment strategy and optimize your research.
+ 
+  - template: block-text-1
+    block: text-1
+    slug: how-does-it-work
+    headline: Try it for free! <br/> We are in public Beta
+    sub-headline: Interested?
+    cta:
+      url: http://localhost:8080/register
+      button_text: Get early access
 
  
   - template: simple-footer
     block: footer-2
-    col_1: <a href="">Impressum</a>  </br> <a href="">About us</a>
+    col_1: <a href="">Impressum</a>
     col_2: Made with ❤︎ in Münster
-    cta:
-      url: http://localhost:8080/register
-      button_text: Register
+    col_3: <a href="">About us</a>
 ---

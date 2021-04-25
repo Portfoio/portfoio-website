@@ -1,21 +1,43 @@
-.block-headline-list .columns {
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-wrap: wrap;
-  flex-wrap: wrap;
-  margin: -32px;
-  margin: -2rem
+.block-headline-list {
+
+  background-image: url("./../assets/images/logos-background.png");
+  -webkit-animation: backgroundScroll 40s infinite;
+  animation: backgroundScroll 40s infinite;
+  background-repeat: repeat;
+  background-attachment: fixed;
+  background-size: 80vh;
+
+  .columns {
+    display: flex;
+    flex-direction: column;  
+    justify-content: center;
+    gap: 2rem;
+  
+    .column {
+      background-color: rgba(255, 255, 255, 0.7);
+      text-align: center;
+      padding: 1rem;
+    }
+    
+  }
+  
+  @media screen and (min-width:700px) {
+    margin-bottom: 10rem;
+
+    .columns {
+      flex-direction: row;
+      flex: 1 1 15rem;
+    }
+  }
+
 }
 
-.block-headline-list .column {
-  -ms-flex: 0 0 calc(100% - 4rem);
-  flex: 0 0 calc(100% - 4rem);
-  margin: 32px;
-  margin: 2rem;
-  text-align: center
+@-webkit-keyframes backgroundScroll {
+  from {background-position: 0 0;}
+  to {background-position: -360px 0px;}
 }
 
-.block-headline-list .column h3 {
-  margin-bottom: 32px;
-  margin-bottom: 2rem
+@keyframes backgroundScroll {
+  from {background-position: 0 0;}
+  to {background-position: -360px 0px;}
 }

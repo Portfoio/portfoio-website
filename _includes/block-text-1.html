@@ -1,11 +1,17 @@
 <section class="block block-text-1">
   <div class="container">
     <div class="columns">
-      <div class="column headline">
-        <h3>{{ section.headline }}</h3>
-      </div>
-      <div class="column text">
-        {{ section.content }}
+      <div class="column">
+        <div class="sub-headline">
+          {{ section.sub-headline }}
+        </div>
+        <h1>{{ section.headline }}</h1>
+        <div class="text">
+          {{ section.content }}
+        </div>
+        <div class="cta">
+          <a class="button primary" href="{{ section.cta.url }}">{{ section.cta.button_text }}</a>
+        </div>
       </div>
     </div>
   </div>
