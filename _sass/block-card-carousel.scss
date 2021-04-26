@@ -1,0 +1,74 @@
+.block-card-carousel {
+  padding: 4rem 0;
+
+  h3 {
+    padding: 0 2rem;
+  }
+
+  .row {
+    padding: 2rem 0;
+    position: relative;
+
+    .carousel-inner {
+      display: flex;
+      overflow: auto;
+      gap: 2rem;
+      padding: 0 2rem;
+      scroll-snap-type: mandatory;
+      scroll-snap-type: x mandatory;
+
+
+      .card {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        flex: 0 0 15rem;
+        padding: 1.5rem;
+        border-radius: $border-radius;
+        background-color: $accent-background;
+        
+        scroll-snap-align: center;
+        
+        p.text {
+          font-weight: 300;
+          font-size: 1.2rem;
+        }
+
+        .reference {
+          margin-top: 0.5rem;
+          font-size: 0.5rem;
+        }
+      }
+    }
+  }
+
+  @media screen and (min-width:700px) {
+    padding: 6rem 8rem;
+
+    .row .carousel-inner {
+      gap: 3rem;
+      flex-wrap: wrap;
+      scroll-snap-type: none;
+      justify-content: space-evenly;
+
+      .card {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        flex: 0 0 15rem;
+        padding: 1rem;
+        border-radius: $border-radius;
+        background-color: $accent-background;
+
+        .text {
+          font-size: 1.3rem;
+        }
+
+        .reference {
+          font-size: 0.5rem;
+        }
+      }
+    }
+  }
+
+}

@@ -30,7 +30,11 @@
 .block-hero-2 .column.text {
   -ms-flex: 0 0 100%;
   flex: 0 0 100%;
-  text-align: center
+  text-align: center;
+
+  h1 {
+    color: #000;
+  }
 }
 
 .block-hero-2 .column.media {

@@ -1,4 +1,5 @@
 .block-headline-list {
+  height: 100vh;
 
   background-image: url("./../assets/images/logos-background.png");
   -webkit-animation: backgroundScroll 40s infinite;
@@ -7,26 +8,44 @@
   background-attachment: fixed;
   background-size: 80vh;
 
+  .container {
+    height: 100%;
+  }
+
   .columns {
     display: flex;
-    flex-direction: column;  
-    justify-content: center;
-    gap: 2rem;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
   
     .column {
-      background-color: rgba(255, 255, 255, 0.7);
       text-align: center;
       padding: 1rem;
+      
+      h3 {
+        font-weight: 900;
+      }
     }
     
   }
   
   @media screen and (min-width:700px) {
     margin-bottom: 10rem;
+    height: 50vh;
+    display: flex;
+    align-items: center;
 
     .columns {
       flex-direction: row;
       flex: 1 1 15rem;
+
+      .column {
+        align-self: center;
+      }
+
+      h3 {
+        font-size: 1.5rem;
+      }
     }
   }
 
@@ -34,10 +53,10 @@
 
 @-webkit-keyframes backgroundScroll {
   from {background-position: 0 0;}
-  to {background-position: -360px 0px;}
+  to {background-position: +360px 0px;}
 }
 
 @keyframes backgroundScroll {
   from {background-position: 0 0;}
-  to {background-position: -360px 0px;}
+  to {background-position: +360px 0px;}
 }

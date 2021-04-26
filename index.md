@@ -84,6 +84,23 @@ page_sections:
       headline: Your individual tool
       content: We are not a robo-adviser. Portfoio is rather a tool that you can use independently from your broker. It helps you to find an investment strategy and optimize your research.
  
+  - template: block-card-carousel
+    block: card-carousel
+    slug: references
+    headline: Did you know that...
+    cards:
+      - number: 1
+        content: In 2020, 55 percent of adults in the United States invested in the stock market.
+        reference: test
+      - number: 2
+        content: Algorithmic trading is accounted for around 60-73% of the overall United States equity trading.
+        reference: https://www.mordorintelligence.com/industry-reports/algorithmic-trading-market
+      - number: 3
+        content: Forbes Eines der größten Wirtschaftsmagazine investiert erfolgreich in die eigene Entwicklung von künstlicher Intelligenz für die Portfolioanalyse.
+        reference: test
+      - number: 4
+        content: Das 1951 in New-York agierende Unternehmen hat den zukünftigen Mehrwert durch künstliche Intelligenzen bereits 2019 in 
+
   - template: block-text-1
     block: text-1
     slug: how-does-it-work
@@ -92,6 +109,19 @@ page_sections:
     cta:
       url: http://localhost:8080/register
       button_text: Get early access
+  
+  - template: block-faq
+    block: faq
+    slug: faq
+    faq:
+      - question: What?
+        answer: Test test test.
+      - question: What?
+        answer: Test test test.
+      - question: What?
+        answer: Test test test.
+      - question: What?
+        answer: Test test test.
 
  
   - template: simple-footer

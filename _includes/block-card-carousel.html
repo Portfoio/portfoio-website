@@ -1,0 +1,20 @@
+<section id="{{ section.slug | slugify }}" class="block block-card-carousel">
+  <div class="container">
+    <h3>Did you know that...</h3>
+    <div class="row">
+      
+      <div class="carousel-inner">
+        
+        {% for card in section.cards %}
+        <div class="card">
+          <p class="text">{{ card.content }}</p>
+          <div class="reference">{{ card.reference }}</div>
+        </div>
+        {% endfor %}
+
+
+
+      </div>
+      <!-- https://codepen.io/jh3y/pen/WwVKLN?editors=1100 -->
+  </div>
+</section>

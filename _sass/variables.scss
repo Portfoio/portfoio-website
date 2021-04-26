@@ -1,11 +1,11 @@
 $background: #fff;
-$accent-background: #F2F2F2;
+$accent-background: #f2f2f2;
 $input-background: #ffffff;
-$primary: #686868;
+$primary: #0b3b8d;
 $accent: #222222;
 
 $font-color: #383838;
-$font-color-headline: #000;
+$font-color-headline: #0b3b8d;
 $font-color-inverted: #f6fbfc;
 
 $selection: #94949460;
@@ -14,5 +14,8 @@ $error: #D00000;
 $warn: #FFBA08;
 $success: #0A8754;
 
-
 $shadow: 0 0 0.5rem rgba(0, 0, 0, 0.25);
+
+$border: 1px solid #d2d2d7;
+$border-selected: 1px solid $accent;
+$border-radius: 12px;
