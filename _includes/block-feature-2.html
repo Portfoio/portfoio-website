@@ -1,4 +1,7 @@
 <section id="{{ section.slug | slugify }}" class="block block-feature-2">
+  {% if section.rectangle and section.rectangle == true %}
+    <div class="rectangle"></div>
+  {% endif %}
   <div class="container">
     <div class="columns">
       <div class="column media">
@@ -14,8 +17,5 @@
           {% endif %}
         </div>
     </div>
-    {% if section.rectangle and section.rectangle == true %}
-      <div class="rectangle"></div>
-    {% endif %}
   </div>
 </section>
