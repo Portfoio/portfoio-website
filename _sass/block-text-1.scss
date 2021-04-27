@@ -1,24 +1,30 @@
-.block-text-1 .columns {
-  margin: 0;
+.block-text-1 {
+  padding: 8rem 0;
 
-  .column {
+
+
+  .columns {
     margin: 0;
-    text-align: center;
-
-    .sub-headline {
-      font-weight: 700;
-      text-transform: uppercase;
-      margin-bottom: 1rem;
-    }
-
-    .cta {
-      margin: 2rem 0;
+  
+    .column {
+      margin: 0;
+      text-align: center;
+  
+      .sub-headline {
+        font-weight: 700;
+        text-transform: uppercase;
+        margin-bottom: 1rem;
+      }
+  
+      .cta {
+        margin: 2rem 0;
+      }
     }
   }
-}
-
-
-
-@media screen and (min-width:700px) {
-
+  
+  
+  
+  @media screen and (min-width:700px) {
+  
+  }
 }

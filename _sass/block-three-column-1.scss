@@ -22,10 +22,10 @@
   .rectangle {
     background-color: $accent-background;
     height: 110%;
-    width: calc(100% + 4rem);
+    width: calc(100% + 2rem);
     position: absolute;
     left: -2rem;
-    top: -2rem;
+    top: 254rem;
     z-index: -1;
   }
 }
@@ -41,15 +41,14 @@
     }
 
     .column {
-      -ms-flex: 0 1 calc(25% - 8rem);
-      flex: 0 1 calc(25% - 8rem);
+      -ms-flex: 0 1 calc(30% - 8rem);
+      flex: 0 1 calc(30% - 8rem);
     }
 
     .rectangle {
-      width: 95%;
-      height: 140%;
-      top: -4rem;
-      left: -8rem;
+      width: 75%;
+      height: 43%;
+      top: 248rem;
       border-radius: 0 50px 50px 0;
     }
   }

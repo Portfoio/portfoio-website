@@ -1,20 +1,97 @@
 <section id="{{ section.slug | slugify }}" class="block block-card-carousel">
-  <div class="container">
-    <h3>Did you know that...</h3>
-    <div class="row">
-      
-      <div class="carousel-inner">
-        
-        {% for card in section.cards %}
-        <div class="card">
-          <p class="text">{{ card.content }}</p>
-          <div class="reference">{{ card.reference }}</div>
-        </div>
-        {% endfor %}
-
-
-
-      </div>
-      <!-- https://codepen.io/jh3y/pen/WwVKLN?editors=1100 -->
+  <div class="headline container">
+    <h1>Did you know that...</h1>
   </div>
+
+  <div class="row">
+
+    <div id="carousel" class="carousel-inner">
+
+      {% for card in section.cards %}
+      <div class="card">
+        <div>
+          <div class="icon">💡</div>
+          <p class="text">{{ card.content }}</p>
+        </div>
+        <div class="reference">{{ card.reference }}</div>
+      </div>
+      {% endfor %}
+
+    </div>
 </section>
+
+<!-- Script to enable scroll on drag -->
+<script>
+  document.addEventListener('DOMContentLoaded', function () {
+    const ele = document.getElementById('carousel');
+    ele.style.cursor = 'grab';
+
+    let pos = { top: 0, left: 0, x: 0, y: 0 };
+
+    const mouseDownHandler = function (e) {
+      ele.style.cursor = 'grabbing';
+      ele.style.userSelect = 'none';
+
+      pos = {
+        left: ele.scrollLeft,
+        top: ele.scrollTop,
+        // Get the current mouse position
+        x: e.clientX,
+        y: e.clientY,
+      };
+
+      document.addEventListener('mousemove', mouseMoveHandler);
+      document.addEventListener('mouseup', mouseUpHandler);
+    };
+
+    const mouseMoveHandler = function (e) {
+      // How far the mouse has been moved
+      const dx = e.clientX - pos.x;
+      const dy = e.clientY - pos.y;
+
+      // Scroll the element
+      ele.scrollTop = pos.top - dy;
+      ele.scrollLeft = pos.left - dx;
+    };
+
+    const mouseUpHandler = function () {
+      ele.style.cursor = 'grab';
+      ele.style.removeProperty('user-select');
+
+      document.removeEventListener('mousemove', mouseMoveHandler);
+      document.removeEventListener('mouseup', mouseUpHandler);
+    };
+
+    // Attach the handler
+    ele.addEventListener('mousedown', mouseDownHandler);
+  });
+
+
+
+  function populate() {
+    const ele = document.getElementById('carousel')
+    while(true) {
+      let containerEnd = ele.getBoundingClientRect().right;
+
+      if (ele.scrollWidth - ele.scrollLeft === 0) {
+        console.log('insert!');
+        ele.insertAdjacentHTML("beforeend", `
+          {% for card in section.cards %}
+          <div class="card">
+            <div>
+              <div class="icon">💡</div>
+              <p class="text">{{ card.content }}</p>
+            </div>
+            <div class="reference">{{ card.reference }}</div>
+          </div>
+          {% endfor %}
+        `);
+      }
+      if (containerEnd > document.documentElement.clientLeft + 100) break;
+    }
+  }
+
+  document.getElementById('carousel').addEventListener('scroll', populate);
+
+  populate(); // init document
+</script>

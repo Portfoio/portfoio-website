@@ -25,7 +25,25 @@ html {
 
 @media screen and (min-width:700px) {
   .block {
-    padding: 6rem 8rem;
+    padding: 6rem 0;
+  }
+}
+@media screen and (min-width:1000px) {
+  .container {
+    max-width: 800px;
+    margin: 0 auto;
+  }
+}
+@media screen and (min-width:1200px) {
+  .container {
+    max-width: 900px;
+    margin: 0 auto;
+  }
+}
+@media screen and (min-width:1500px) {
+  .container {
+    max-width: 1300px;
+    margin: 0 auto;
   }
 }
 

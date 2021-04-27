@@ -1,7 +1,7 @@
 .block-card-carousel {
   padding: 4rem 0;
 
-  h3 {
+  .headline.container {
     padding: 0 2rem;
   }
 
@@ -13,21 +13,36 @@
       display: flex;
       overflow: auto;
       gap: 2rem;
-      padding: 0 2rem;
+      padding: 1rem;
       scroll-snap-type: mandatory;
       scroll-snap-type: x mandatory;
+      cursor: grab;
 
+      // Hide scrollbar
+      -ms-overflow-style: none;  /* IE and Edge */
+      scrollbar-width: none;  /* Firefox */
+
+      &::-webkit-scrollbar {
+        display: none;
+      }
 
       .card {
         display: flex;
         flex-direction: column;
         justify-content: space-between;
-        flex: 0 0 15rem;
-        padding: 1.5rem;
+        flex: 0 0 16rem;
+        word-break: break-word;
+        padding: 1rem;
         border-radius: $border-radius;
-        background-color: $accent-background;
+        // background-color: $accent-background;
+        box-shadow: $shadow;
         
         scroll-snap-align: center;
+
+        .icon {
+          font-size: 2rem;
+          padding-bottom: 0.5rem;
+        }
         
         p.text {
           font-weight: 300;
@@ -36,39 +51,39 @@
 
         .reference {
           margin-top: 0.5rem;
-          font-size: 0.5rem;
+          font-weight: 200;
+          font-size: 0.8rem;
         }
       }
     }
   }
 
   @media screen and (min-width:700px) {
-    padding: 6rem 8rem;
+    padding: 6rem 0;
 
-    .row .carousel-inner {
-      gap: 3rem;
-      flex-wrap: wrap;
-      scroll-snap-type: none;
-      justify-content: space-evenly;
-
-      .card {
-        display: flex;
-        flex-direction: column;
-        justify-content: space-between;
-        flex: 0 0 15rem;
-        padding: 1rem;
-        border-radius: $border-radius;
-        background-color: $accent-background;
-
-        .text {
-          font-size: 1.3rem;
-        }
-
-        .reference {
-          font-size: 0.5rem;
+      .row .carousel-inner {
+        gap: 4rem;
+        scroll-snap-type: none;
+        justify-content: space-evenly;
+        scroll-snap-type: none;
+  
+        .card {
+          display: flex;
+          flex-direction: column;
+          justify-content: space-between;
+          flex: 0 0 20rem;
+          scroll-snap-align: none;
+  
+          .text {
+            font-size: 1.3rem;
+          }
+  
+          .reference {
+            font-size: 0.5rem;
+          }
         }
       }
-    }
+
   }
 
 }
