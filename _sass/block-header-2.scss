@@ -11,7 +11,7 @@
   background-color: $background;
   
   position: fixed;
-  width: 100%;
+  width: 100vw;
   z-index: 100;
 }
 
@@ -61,7 +61,7 @@
 
 @media screen and (min-width:768px) {
   .block-header-2 {
-    padding: 0.5rem 8rem;
+    padding: 0.5rem 4rem;
   }
 
   .block-header-2--logo img {
