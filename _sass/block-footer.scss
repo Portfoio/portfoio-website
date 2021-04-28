@@ -1,65 +1,58 @@
 .block-footer-1 {
   font-size: 12.8px;
-  font-size: .8rem;
+  font-size: 0.8rem;
   color: #666;
-  text-align: center
-}
-
-.block-footer-2 .columns {
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-wrap: wrap;
-  flex-wrap: wrap;
-  margin: -32px;
-  margin: -2rem
+  text-align: center;
 }
 
 .block-footer-2 {
-  .column {
-    -ms-flex: 0 0 calc(50% - 4rem);
-    flex: 0 0 calc(50% - 4rem);
-    margin: 32px;
-    margin: 2rem;
-    color: rgb(124, 124, 124);
-    
-    a {
-      color: inherit; /* blue colors for links too */
-      text-decoration: inherit; /* no underline */
-    }
-    
-    &.second {
-      text-align: center;
-      color: $font-color;
-      order: +1;
-      -ms-flex: 0 0 calc(100% - 4rem);
-      flex: 0 0 calc(100% - 4rem);
-    }
-  
-    &.third {
-      text-align: end;
+  padding-bottom: 1rem;
 
-    }
-    
-}
+  .columns {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
 
-}
+    .column {
+      -ms-flex: 0 0 calc(50% - 4rem);
+      flex: 0 0 calc(50% - 4rem);
+      margin: 32px;
+      margin: 2rem;
+      color: rgb(83, 83, 83);
 
-.block-footer-2 img {
-  max-width: 100%
-}
+      a {
+        color: inherit; /* blue colors for links too */
+        text-decoration: inherit; /* no underline */
+      }
 
-@media screen and (min-width:768px) {
-  .block-footer-2
-  
-  .column {
-    -ms-flex: 0 0 calc(33.33% - 4rem);
-    flex: 0 0 calc(33.33% - 4rem);
-    
-    &.second {
-      order: 0;
-      -ms-flex: 0 0 calc(33.33% - 4rem);
-      flex: 0 0 calc(33.33% - 4rem);
+      &.second {
+        text-align: center;
+        color: $font-color;
+        order: +1;
+        -ms-flex: 0 0 calc(100% - 4rem);
+        flex: 0 0 calc(100% - 4rem);
+      }
+
+      &.third {
+        text-align: end;
+      }
     }
   }
+}
 
+@media screen and (min-width: 768px) {
+  .block-footer-2 {
+    .column {
+      -ms-flex: 0 0 calc(33.33% - 4rem);
+      flex: 0 0 calc(33.33% - 4rem);
+  
+      &.second {
+        order: 0;
+        -ms-flex: 0 0 calc(33.33% - 4rem);
+        flex: 0 0 calc(33.33% - 4rem);
+      }
+    }
+  }
+  
 }

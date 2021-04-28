@@ -4,56 +4,69 @@
     margin-bottom: 2rem;
   }
 
-  details[open] summary ~ * {
-    animation: open 0.3s ease-in-out;
+  details[open] {
+    summary ~ * {
+      animation: sweep 0.3s ease-in-out;
+    }
+
+    summary:after {
+      transition: 300ms linear;
+      content: "-";
+      font-size: 2rem;
+    }
   }
   
-  @keyframes open {
-    0% {
+  details {
+
+    summary {
+      width: 100%;
+      padding: 0.5rem ;
+      border-bottom: $border;
+      position: relative;
+      cursor: pointer;
+      font-size: 1.25rem;
+      font-weight: 300;
+      list-style: none;
+
+      &:hover {
+        background: rgb(240, 240, 240);
+      }
+
+      &:after {
+        content: "+";
+        color: black;
+        position: absolute;
+        font-size: 1.75rem;
+        line-height: 0;
+        margin-top: 0.75rem;
+        right: 1rem;
+        font-weight: 200;
+        transform-origin: center;
+        transition: 200ms linear;
+        outline: 0;
+      }
+
+      &::details, &::-webkit-details-marker {
+        display: none;
+       }
+    }
+
+    p {
+      font-size: 0.95rem;
+      margin: 0 0 1rem;
+      padding: 1rem 1rem 0;
+    }
+  }
+
+  @keyframes sweep {
+    from {
       opacity: 0;
+      margin-top: -2rem;
     }
-    100% {
+    to {
       opacity: 1;
+      margin-top: 0px;
     }
-  }
-  details summary::details {
-    display: none;
-  }
-  
-  details summary {
-    width: 100%;
-    padding: 0.5rem ;
-    border-top: $border;
-    position: relative;
-    cursor: pointer;
-    font-size: 1.25rem;
-    font-weight: 300;
-    list-style: none;
-  }
-  
-  details summary:after {
-    content: "+";
-    color: black;
-    position: absolute;
-    font-size: 1.75rem;
-    line-height: 0;
-    margin-top: 0.75rem;
-    right: 0;
-    font-weight: 200;
-    transform-origin: center;
-    transition: 200ms linear;
-  }
-  details[open] summary:after {
-    transform: rotate(45deg);
-    font-size: 2rem;
-  }
-  details summary {
-    outline: 0;
-  }
-  details p {
-    font-size: 0.95rem;
-    margin: 0 0 1rem;
-    padding-top: 1rem;
   }
   
 }

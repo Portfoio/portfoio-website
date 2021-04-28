@@ -14,7 +14,7 @@
     flex: 0 1 calc(100% - 4rem);
     margin: 32px;
     margin: 2rem;
-  
+
     h2 {
       margin-bottom: 16px;
       margin-bottom: 1rem;
@@ -32,28 +32,41 @@
   }
 }
 
-
-@media screen and (min-width:768px) {
+@media screen and (min-width: 768px) {
   .block-three-column-1 {
     margin: 4rem 0;
-
+    
     h1 {
       text-align: end;
       margin-bottom: 4rem;
     }
 
     .column {
-      -ms-flex: 0 1 calc(30% - 8rem);
-      flex: 0 1 calc(30% - 8rem);
+      -ms-flex: 0 1 calc(33% - 4rem);
+      flex: 0 1 calc(33% - 4rem);
+    }
+    
+    .rectangle {
+      width: 100%;
+      border-radius: 0;
+      height: 90%;
+      top: 50px;
+      left: 0;
+    }
+  }
+}
+
+@media screen and (min-width: 1100px) {
+  .block-three-column-1 {
+  
+    .column {
+      -ms-flex: 0 1 calc(30% - 6rem);
+      flex: 0 1 calc(30% - 6rem);
     }
 
     .rectangle {
       width: 75%;
-      height: 90%;
-      top: 50px;
-      left: 0;
       border-radius: 0 50px 50px 0;
     }
   }
-  
 }
