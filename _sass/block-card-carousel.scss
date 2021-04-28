@@ -12,7 +12,6 @@
     .carousel-inner {
       display: flex;
       overflow: auto;
-      gap: 2rem;
       padding: 1rem;
       scroll-snap-type: mandatory;
       scroll-snap-type: x mandatory;
@@ -27,10 +26,17 @@
       }
 
       .card {
+        -webkit-touch-callout: none;
+        -webkit-user-select: none;
+        -khtml-user-select: none;
+        -moz-user-select: none;
+        -ms-user-select: none;
+        user-select: none;
+        margin: 0 1rem;
         display: flex;
         flex-direction: column;
         justify-content: space-between;
-        flex: 0 0 16rem;
+        flex: 0 0 80%;
         word-break: break-word;
         padding: 1rem;
         border-radius: $border-radius;
@@ -62,12 +68,12 @@
     padding: 6rem 0;
 
       .row .carousel-inner {
-        gap: 4rem;
         scroll-snap-type: none;
         justify-content: space-evenly;
         scroll-snap-type: none;
   
         .card {
+          margin: 0 2rem;
           display: flex;
           flex-direction: column;
           justify-content: space-between;
