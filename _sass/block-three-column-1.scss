@@ -1,4 +1,6 @@
 .block-three-column-1 {
+  position: relative;
+
   .columns {
     display: -ms-flexbox;
     display: flex;
@@ -21,17 +23,17 @@
 
   .rectangle {
     background-color: $accent-background;
-    height: 110%;
+    height: 100%;
     width: calc(100% + 2rem);
     position: absolute;
     left: -2rem;
-    top: 254rem;
+    top: 0;
     z-index: -1;
   }
 }
 
 
-@media screen and (min-width:700px) {
+@media screen and (min-width:768px) {
   .block-three-column-1 {
     margin: 4rem 0;
 
@@ -47,8 +49,9 @@
 
     .rectangle {
       width: 75%;
-      height: 43%;
-      top: 248rem;
+      height: 90%;
+      top: 50px;
+      left: 0;
       border-radius: 0 50px 50px 0;
     }
   }

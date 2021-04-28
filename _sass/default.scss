@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;500;600;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;500;600;768;800&display=swap');
 
 html {
   font-family: Montserrat, BlinkMacSystemFont, Segoe UI, Roboto, Noto Sans, Ubuntu, Droid Sans, Helvetica Neue, sans-serif;
@@ -23,7 +23,11 @@ html {
   padding: 4rem 2rem
 }
 
-@media screen and (min-width:700px) {
+@media screen and (min-width:768px) {
+  .container {
+    max-width: 100%;
+  }
+
   .block {
     padding: 6rem 0;
   }
