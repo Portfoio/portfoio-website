@@ -18,8 +18,8 @@ page_sections:
   - template: hero-banner-w-image
     block: hero-2
     slug: hero
-    headline: <strong>Get control over your money</strong><br> with the power of AI
-    content: Portfoio helps you to optimize your investment.
+    headline: <strong>Diversify your Portfolio</strong><br> with the power of AI
+    content: Invest safely and maximize your profit.
     cta:
       enabled: true
       url: http://localhost:8080
@@ -32,17 +32,17 @@ page_sections:
     block: headline-list
     slug: problem
     headlines:
-      - line: Others tell you what to do with your money?
-      - line: You want to find the perfect balance between risk and profit?
       - line: You have lost track of all the investment possibilities?
+      - line: You have difficulties to diversify your portfolio?
+      - line: You want to find the perfect balance between risk and profit?
 
   - template: content-feature
     block: feature-1
     media_alignment: Left
     slug: generate
     rectangle: true
-    headline: Get control
-    content: With Portfoio you have an AI based tool that will help you create a portfolio that will withstand crises and earn you profits at the same time. It does not matter which bank you have your portfolio at.
+    headline: Portfoio generates optimized Portfolios.
+    content: Choose your settings and let our AI search over ten thousand of assets for you. Our AI generates multiple Portfolios for you. The portfolios differ in their risk class. Choose your risk tolerance and find the optimal portfolio for you.
     media:
       image: "/assets/images/portfolio.svg"
       alt_text: Mobile view of the Dashboard
@@ -52,8 +52,8 @@ page_sections:
     block: feature-1
     media_alignment: Right
     slug: diversify
-    headline: Optimized for you
-    content: Our AI optimizes balanced portfolios based on your preferences. You can decide whether you want to invest only in sustainable assets, just ETFs or which risk you want to take.
+    headline: Professional tools are not only for hedge fund managers 
+    content: Portfoio uses the advanced technologies that only professional hedge fund managers can afford to use. It helps you to control and optimize risk and return. It saves you time by not having to dive into countless sectors and comparing assets to diversify your portfolio.
     media:
       image: "/assets/images/all-data-charts.svg"
       alt_text: Mobile view of the Dashboard
@@ -63,8 +63,8 @@ page_sections:
     block: feature-1
     media_alignment: Left
     slug: recommendation
-    headline: Your portfolio in balance
-    content: All generated portfolios are diversified. This means that they invest broadly in different sectors and regions. Therefore, if one value declines, the other values in the portfolio catch it up.
+    headline: Get a financial advantage
+    content: Our AI helps you gain insight into new information that can give you a financial advantage. With our tools, you can take charge of your investment decision. In addition, you will see how you can secure your investments by investing in a diversified way.
     media:
       image: "/assets/images/investing-bar.svg"
       alt_text: Mobile view of the Dashboard
@@ -76,14 +76,13 @@ page_sections:
     headline: How does it work?
     col_1:
       headline: Inspired by evolution
-      content: Our AI learns like evolution, strong portfolios evolve while poor performers are weeded out. It does this based on past performance. So it is worthwhile to come back regularly!
+      content: Our AI is based on genetic algorithms and it learns in an evolutionary way - so it never stops getting better.
     col_2:
       headline: Risk and Return
-      content: The fundamental valuation criteria for our AI are risk and return. These are not only important values for you, but are also core evaluation criteria in science.
+      content: The fundamental drivers of our AI are risk and return. The system is based on Modern portfolio theory. So You always get optimized results!
     col_3:
       headline: Your individual tool
-      content: We are not a robot adviser. We are independent from banks and free to use. Portfoio helps you to get control over your investment.
-
+      content: We are not a robo-adviser. Portfoio is rather a tool to use it independently from your broker. It helps you to find an investment strategy and optimize your assets.
  
   - template: block-card-carousel
     block: card-carousel
