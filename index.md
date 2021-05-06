@@ -154,5 +154,5 @@ page_sections:
     block: footer-2
     col_1: <a href="">Impressum</a>
     col_2: Made with ❤︎ in Münster
-    col_3: <a href="">About us</a>
+    col_3: <a href="/about.html">About us</a>
 ---
