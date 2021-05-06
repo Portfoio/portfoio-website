@@ -14,5 +14,9 @@ defaults:
     values:
       layout: "default" # this ensures all content renders with layouts/default.html
 
+github:
+  source:
+    branch: production
+
 plugins:
   - jekyll-feed
