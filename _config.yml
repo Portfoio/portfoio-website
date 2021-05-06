@@ -1,6 +1,7 @@
 title: AI based Portfolio optimizer
-url: "https://portfoio.github.io/portfoio-website/"
+url: "https://portfoio.github.io"
 baseurl:
+relative_url: "/portfoio-website"
 author: Portfoio
 email: tillhoffmann@gmail.com
 description: >-
