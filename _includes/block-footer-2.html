@@ -8,7 +8,7 @@
           {{ section.col_2 }}
       </div>
       <div class="column third">
-        <a href="{{ section.col_3.link | absolute_url }}">{{ section.col_3.text }}</a>
+        <a href="{{ section.col_3.link | relative_url }}">{{ section.col_3.text }}</a>
           {% if section.cta %}
             <a class="button primary small" href="{{ section.cta.url }}">{{ section.cta.button_text }}</a>
           {% endif %}
