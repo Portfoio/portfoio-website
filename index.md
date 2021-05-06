@@ -152,7 +152,6 @@ page_sections:
  
   - template: simple-footer
     block: footer-2
-    col_1: <a href="">Impressum</a>
     col_2: Made with ❤︎ in Münster
-    col_3: <a href="/about.html">About us</a>
+    col_3: <a href="about.html">Imprint</a>
 ---
