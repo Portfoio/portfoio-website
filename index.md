@@ -139,13 +139,15 @@ page_sections:
     slug: faq
     faq:
       - question: What makes Portfoio different from a robo-adviser?
-        answer: Robo-advisors are automatized asset managers that usually only provide a “one-size-fits-all” solution. Portfoio on the other hand is a software for investors who want to build and manage their portfolio themselves. Whether you have prior knowledge or are a first time investor, the app will be your co-pilot to assist you with your investments and the monitoring of those. With an asset manager you delegate all the decisions - with us you are the one who decides what services you want to use.
-      - question: Why don't you manage your customers' money on a separate custody account?
-        answer: We address self-directed-investors who want to manage their money independently. In addition, this would mean that our customers would have to open a new account and the custodian bank would charge Portfoio approx. 0.15 - 0.4 % on the managed assets. We would have to pass these costs on to our customers. How should we explain to our clients to exchange their free online custody account with no or minimal trading costs for a new custody account with up to 0.4% annual fees? If you don't have a cheap online custody account yet - our software will calculate the cheapest one for you.
+        answer: Robo-advisors are automatized asset managers that usually only provide a “one-size-fits-all” solution. Portfoio on the other hand is a software for investors who want to build and manage their portfolio themselves. Whether you have prior knowledge or are a first time investor, the app will be your co-pilot to assist you with your investments. With an asset manager you delegate all the decisions - with us you are the one who decides what assets you want to buy.
       - question: How does Portfoio find optimal assets?
-        answer: By taking into account all the products available to our clients and their characteristics, as well as the costs of all the banks available. For example, if you want to invest in an ETF on the DAX, our algorithms calculate for each investor individually how much each available DAX ETF will likely cost in the future. If you already have a DAX ETF, we will of course take into account the costs for a shift in our calculations.
-      - question: Which assets or products does Portfoio recommend?
-        answer: Portfoio only recommends Exchange Traded Funds (ETFs). ETFs are extremely cost-effective investment products with high diversification and liquidity that are ideally suited for private asset accumulation.
+        answer: Portfoio values the assets on the basis of past performance. That is, how big the fluctuations in value were and how high the profit was. In addition, how the assets harmonize and balance each other as a whole portfolio.
+      - question: Which assets or products does Portfoio use?
+        answer: Generated portfolios can consist of stocks and/or ETFs (more coming soon, crypto friends 😏). You can decide yourself from what your portfolios will be generated. 
+      - question: What are ETFs?
+        answer: ETFs track the performance of stock market indices, i.e. combine the performance of several companies - in contrast to individual stocks, which track a specific value. The aim of an ETF is to achieve the same return as the index it tracks.
+      - question: What is diversification?
+        answer: With any asset, there is a risk that it will lose value in the future. This is the individual risk. For this reason, you should not invest all your assets in one asset.<br/>To minimize the risk, Portfoio always generates portfolios of assets from different industries and countries. This way you are not dependent on the success of a single company.
 
  
   - template: simple-footer
