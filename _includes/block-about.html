@@ -1,0 +1,18 @@
+<section class="block block-about">
+  <div class="container">
+    <h1>Imprint</h1>
+
+    {% for info in section.personal %}
+    <p class="personal-info">
+      <div class="name">{{ info.name }}</div>
+      <div class="email">Email: {{ info.email }}</div>
+    </p>
+    {% endfor %}
+    <br />
+    <p class="contact-info">
+      <div class="street">{{ section.address.street }}</div>
+      <div class="city">{{ section.address.city }}</div>
+      <div class="website">Website: {{ section.website }}</div>
+    </p>
+  </div>
+</section>
