@@ -104,18 +104,6 @@ page_sections:
         reference: test
       - number: 4
         content: Das 1951 in New-York agierende Unternehmen hat den zukünftigen Mehrwert durch künstliche Intelligenzen bereits 2019 in 
-      - number: 5
-        content: In 2020, 55 percent of adults in the United States invested in the stock market.
-        reference: test
-      - number: 6
-        content: Algorithmic trading is accounted for around 60-73% of the overall United States equity trading.
-        reference: https://www.mordorintelligence.com/industry-reports/algorithmic-trading-market
-      - number: 7
-        content: Forbes Eines der größten Wirtschaftsmagazine investiert erfolgreich in die eigene Entwicklung von künstlicher Intelligenz für die Portfolioanalyse.
-        reference: test
-      - number: 8
-        content: Das 1951 in New-York agierende Unternehmen hat den zukünftigen Mehrwert durch künstliche Intelligenzen bereits 2019 in 
-      
 
   - template: block-text-1
     block: text-1
