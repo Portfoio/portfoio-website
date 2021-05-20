@@ -1,6 +1,6 @@
 ---
 layout: blocks
-title: Portfoio
+title: gendriven
 date: 2021-04-28T23:00:00.000+00:00
 page_sections:
 
@@ -41,7 +41,7 @@ page_sections:
     media_alignment: Left
     slug: generate
     rectangle: true
-    headline: Portfoio generates optimized Portfolios.
+    headline: gendriven generates optimized Portfolios.
     content: Choose your settings and let our AI search over ten thousand of assets for you. Our AI generates multiple Portfolios for you. The portfolios differ in their risk class. Choose your risk tolerance and find the optimal portfolio for you.
     media:
       image: "/assets/images/portfolio.svg"
@@ -53,7 +53,7 @@ page_sections:
     media_alignment: Right
     slug: diversify
     headline: Professional tools are not only for hedge fund managers 
-    content: Portfoio uses the advanced technologies that only professional hedge fund managers can afford to use. It helps you to control and optimize risk and return. It saves you time by not having to dive into countless sectors and comparing assets to diversify your portfolio.
+    content: gendriven uses the advanced technologies that only professional hedge fund managers can afford to use. It helps you to control and optimize risk and return. It saves you time by not having to dive into countless sectors and comparing assets to diversify your portfolio.
     media:
       image: "/assets/images/all-data-charts.svg"
       alt_text: Mobile view of the Dashboard
@@ -82,7 +82,7 @@ page_sections:
       content: The fundamental drivers of our AI are risk and return. The system is based on Modern portfolio theory. So You always get optimized results!
     col_3:
       headline: Your individual tool
-      content: We are not a robo-adviser. Portfoio is rather a tool to use it independently from your broker. It helps you to find an investment strategy and optimize your assets.
+      content: We are not a robo-adviser. gendriven is rather a tool to use it independently from your broker. It helps you to find an investment strategy and optimize your assets.
  
   - template: block-card-carousel
     block: card-carousel
@@ -137,14 +137,14 @@ page_sections:
     block: faq
     slug: faq
     faq:
-      - question: What makes Portfoio different from a robo-adviser?
-        answer: Robo-advisors are automatized asset managers that usually only provide a “one-size-fits-all” solution. Portfoio on the other hand is a software for investors who want to build and manage their portfolio themselves. Whether you have prior knowledge or are a first time investor, the app will be your co-pilot to assist you with your investments and the monitoring of those. With an asset manager you delegate all the decisions - with us you are the one who decides what services you want to use.
+      - question: What makes gendriven different from a robo-adviser?
+        answer: Robo-advisors are automatized asset managers that usually only provide a “one-size-fits-all” solution. gendriven on the other hand is a software for investors who want to build and manage their portfolio themselves. Whether you have prior knowledge or are a first time investor, the app will be your co-pilot to assist you with your investments and the monitoring of those. With an asset manager you delegate all the decisions - with us you are the one who decides what services you want to use.
       - question: Why don't you manage your customers' money on a separate custody account?
-        answer: We address self-directed-investors who want to manage their money independently. In addition, this would mean that our customers would have to open a new account and the custodian bank would charge Portfoio approx. 0.15 - 0.4 % on the managed assets. We would have to pass these costs on to our customers. How should we explain to our clients to exchange their free online custody account with no or minimal trading costs for a new custody account with up to 0.4% annual fees? If you don't have a cheap online custody account yet - our software will calculate the cheapest one for you.
-      - question: How does Portfoio find optimal assets?
+        answer: We address self-directed-investors who want to manage their money independently. In addition, this would mean that our customers would have to open a new account and the custodian bank would charge gendriven approx. 0.15 - 0.4 % on the managed assets. We would have to pass these costs on to our customers. How should we explain to our clients to exchange their free online custody account with no or minimal trading costs for a new custody account with up to 0.4% annual fees? If you don't have a cheap online custody account yet - our software will calculate the cheapest one for you.
+      - question: How does gendriven find optimal assets?
         answer: By taking into account all the products available to our clients and their characteristics, as well as the costs of all the banks available. For example, if you want to invest in an ETF on the DAX, our algorithms calculate for each investor individually how much each available DAX ETF will likely cost in the future. If you already have a DAX ETF, we will of course take into account the costs for a shift in our calculations.
-      - question: Which assets or products does Portfoio recommend?
-        answer: Portfoio only recommends Exchange Traded Funds (ETFs). ETFs are extremely cost-effective investment products with high diversification and liquidity that are ideally suited for private asset accumulation.
+      - question: Which assets or products does gendriven recommend?
+        answer: gendriven only recommends Exchange Traded Funds (ETFs). ETFs are extremely cost-effective investment products with high diversification and liquidity that are ideally suited for private asset accumulation.
 
  
   - template: simple-footer

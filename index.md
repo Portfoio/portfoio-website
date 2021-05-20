@@ -1,6 +1,6 @@
 ---
 layout: blocks
-title: Portfoio
+title: gendriven
 date: 2021-04-28T23:00:00.000+00:00
 page_sections:
 
@@ -19,7 +19,7 @@ page_sections:
     block: hero-2
     slug: hero
     headline: <strong>Get control over your money</strong><br> with the power of AI
-    content: Portfoio helps you to optimize your investment.
+    content: gendriven helps you to optimize your investment.
     cta:
       enabled: true
       url: http://localhost:8080
@@ -42,7 +42,7 @@ page_sections:
     slug: generate
     rectangle: true
     headline: Get control
-    content: With Portfoio you have an AI based tool that will help you create a portfolio that will withstand crises and earn you profits at the same time. It does not matter which bank you have your portfolio at.
+    content: With gendriven you have an AI based tool that will help you create a portfolio that will withstand crises and earn you profits at the same time. It does not matter which bank you have your portfolio at.
     media:
       image: "/assets/images/portfolio.svg"
       alt_text: Mobile view of the Dashboard
@@ -82,7 +82,7 @@ page_sections:
       content: The fundamental valuation criteria for our AI are risk and return. These are not only important values for you, but are also core evaluation criteria in science.
     col_3:
       headline: Your individual tool
-      content: We are not a robot adviser. We are independent from banks and free to use. Portfoio helps you to get control over your investment.
+      content: We are not a robot adviser. We are independent from banks and free to use. gendriven helps you to get control over your investment.
 
  
   - template: block-card-carousel
@@ -130,22 +130,22 @@ page_sections:
     block: faq
     slug: faq
     faq:
-      - question: What makes Portfoio different from a robo-adviser?
-        answer: Robo-advisors are automatized asset managers that usually only provide a “one-size-fits-all” solution. Portfoio on the other hand is a software for investors who want to build and manage their portfolio themselves. Whether you have prior knowledge or are a first time investor, the app will be your co-pilot to assist you with your investments. With an asset manager you delegate all the decisions - with us you are the one who decides what assets you want to buy.
-      - question: How does Portfoio find optimal assets?
-        answer: Portfoio values the assets on the basis of past performance. That is, how big the fluctuations in value were and how high the profit was. In addition, how the assets harmonize and balance each other as a whole portfolio.
-      - question: Which assets or products does Portfoio use?
+      - question: What makes gendriven different from a robo-adviser?
+        answer: Robo-advisors are automatized asset managers that usually only provide a “one-size-fits-all” solution. gendriven on the other hand is a software for investors who want to build and manage their portfolio themselves. Whether you have prior knowledge or are a first time investor, the app will be your co-pilot to assist you with your investments. With an asset manager you delegate all the decisions - with us you are the one who decides what assets you want to buy.
+      - question: How does gendriven find optimal assets?
+        answer: gendriven values the assets on the basis of past performance. That is, how big the fluctuations in value were and how high the profit was. In addition, how the assets harmonize and balance each other as a whole portfolio.
+      - question: Which assets or products does gendriven use?
         answer: Generated portfolios can consist of stocks and/or ETFs (more coming soon, crypto friends 😏). You can decide yourself from what your portfolios will be generated. 
       - question: What are ETFs?
         answer: ETFs track the performance of stock market indices, i.e. combine the performance of several companies - in contrast to individual stocks, which track a specific value. The aim of an ETF is to achieve the same return as the index it tracks.
       - question: What is diversification?
-        answer: With any asset, there is a risk that it will lose value in the future. This is the individual risk. For this reason, you should not invest all your assets in one asset.<br/>To minimize the risk, Portfoio always generates portfolios of assets from different industries and countries. This way you are not dependent on the success of a single company.
+        answer: With any asset, there is a risk that it will lose value in the future. This is the individual risk. For this reason, you should not invest all your assets in one asset.<br/>To minimize the risk, gendriven always generates portfolios of assets from different industries and countries. This way you are not dependent on the success of a single company.
 
  
   - template: simple-footer
     block: footer-2
-    col_2: Made with ❤︎ in Münster
-    col_3: 
+    col_2: 
         link: about.html
         text: Imprint
+    greetings: Made with ❤︎ in Münster
 ---

@@ -15,8 +15,8 @@
     flex-wrap: wrap;
 
     .column {
-      -ms-flex: 0 0 calc(50% - 4rem);
-      flex: 0 0 calc(50% - 4rem);
+      -ms-flex: 0 0 calc(33% - 4rem);
+      flex: 0 0 calc(33% - 4rem);
       margin: 32px;
       margin: 2rem;
       color: rgb(83, 83, 83);
@@ -28,15 +28,19 @@
 
       &.second {
         text-align: center;
-        color: $font-color;
-        order: +1;
-        -ms-flex: 0 0 calc(100% - 4rem);
-        flex: 0 0 calc(100% - 4rem);
       }
 
       &.third {
         text-align: end;
       }
+    }
+
+    .greetings {
+      text-align: center;
+      color: $font-color;
+      order: +1;
+      -ms-flex: 0 0 calc(100%);
+      flex: 0 0 calc(100%);
     }
   }
 }

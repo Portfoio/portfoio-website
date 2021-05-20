@@ -1,10 +1,10 @@
 title: AI based Portfolio optimizer
-url: "https://portfoio.github.io/portfoio-website"
+url: "https://gendriven.github.io/gendriven-website"
 baseurl:
-author: Portfoio
+author: gendriven
 email: tillhoffmann@gmail.com
 description: >-
-  Portfoio is an AI based calculator to optimize Portfolios
+  gendriven is an AI based calculator to optimize Portfolios
 
 # Build settings
 defaults:

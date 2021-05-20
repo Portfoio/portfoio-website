@@ -25,6 +25,6 @@ page_sections:
         email: vitus.forsmann@hotmail.com
     website: www.portfo.io
     address:
-      street: Rudolf-Harbig-Weg 28
-      city: 48149 Münster
+      street: xxx
+      city: Münster
 ---
