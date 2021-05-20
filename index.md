@@ -11,10 +11,10 @@ page_sections:
     navigation:
       - link: "#how-does-it-work"
         link_text: How does it work?
-    cta:
-      url: http://localhost:8080/register
-      button_text: Coming soon!
-      property: disabled
+    # cta:
+    #   url: http://localhost:8080/register
+    #   button_text: Coming soon!
+    #   property: disabled
 
   - template: hero-banner-w-image
     block: hero-2
