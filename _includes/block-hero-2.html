@@ -6,7 +6,7 @@
         <h1><span class="light">{{ section.headline }}</span></h1>
         <p>{{ section.content }}</p>
         {% if section.cta and section.cta.enabled == true %}
-        <a class="button primary" href="{{ section.cta.url }}">{{ section.cta.button_text }}</a>
+        <a class="button primary {{ section.cta.property === 'disabled' ? 'disabled' : ''}}" href="{{ section.cta.url }}">{{ section.cta.button_text }}</a>
         {% endif %}
       </div>
       <div class="column media">

@@ -10,7 +10,7 @@
           {{ section.content }}
         </div>
         <div class="cta">
-          <a class="button primary" href="{{ section.cta.url }}">{{ section.cta.button_text }}</a>
+          <a class="button primary {{ section.cta.property === 'disabled' ? 'disabled' : ''}}" href="{{ section.cta.url }}">{{ section.cta.button_text }}</a>
         </div>
       </div>
     </div>

@@ -13,7 +13,8 @@ page_sections:
         link_text: How does it work?
     cta:
       url: http://localhost:8080/register
-      button_text: Register
+      button_text: Coming soon!
+      property: disabled
 
   - template: hero-banner-w-image
     block: hero-2
@@ -23,7 +24,8 @@ page_sections:
     cta:
       enabled: true
       url: http://localhost:8080
-      button_text: Get early access
+      button_text: Coming soon!
+      property: disabled
     image:
       image: "/assets/images/iphone-mock.png"
       alt_text: Product Shot
@@ -112,7 +114,8 @@ page_sections:
     sub-headline: Interested?
     cta:
       url: http://localhost:8080/register
-      button_text: Get early access
+      button_text: Coming soon!
+      property: disabled
   
   - template: block-faq
     block: faq
