@@ -17,5 +17,8 @@ github:
   source:
     branch: production
 
+# Google Analytics
+google_analytics: G-3XF21G6V7L
+
 plugins:
   - jekyll-feed
