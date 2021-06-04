@@ -23,7 +23,7 @@ page_sections:
         email: tillhoffmann1411@gmail.com
       - name: Vitus Forsmann
         email: vitus.forsmann@hotmail.com
-    website: www.portfo.io
+    website: www.gendriven.com
     address:
       street: xxx
       city: Münster

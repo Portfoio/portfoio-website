@@ -93,19 +93,19 @@ page_sections:
     headline: Did you know that...
     cards:
       - number: 0
-        content: In 2020, 55 percent of adults in the United States invested in the stock market.
-        reference: test
+        content: In 2020, 55% of adults in the US invested in the stock market.
+        reference:
       - number: 1
-        content: In 2020, 55 percent of adults in the United States invested in the stock market.
-        reference: test
-      - number: 2
-        content: Algorithmic trading is accounted for around 60-73% of the overall United States equity trading.
+        content: Algorithmic trading is accounted for around 60-73% of the overall US equity trading.
         reference: https://www.mordorintelligence.com/industry-reports/algorithmic-trading-market
+      - number: 2
+        content: Forbes One of the largest business magazines is successfully investing in its own development of artificial intelligence for portfolio analysis.
+        reference:
       - number: 3
-        content: Forbes Eines der größten Wirtschaftsmagazine investiert erfolgreich in die eigene Entwicklung von künstlicher Intelligenz für die Portfolioanalyse.
-        reference: test
+        content: Recent studies show that algorithmic trading will grow strongly in the next few years.
+        reference: https://manometcurrent.com/algorithmic-trading-market-rising-trends-forecast-to-2025-leading-players-trading-technologies-international-inc-thomson-reuters-corporation-vela-trading-systems-llc-metaquotes-softwa/
       - number: 4
-        content: Das 1951 in New-York agierende Unternehmen hat den zukünftigen Mehrwert durch künstliche Intelligenzen bereits 2019 in 
+        content: Investing with the help of artificial intelligence is a growing trend and is also widespread among hedge fund managers.
 
   - template: block-text-1
     block: text-1
