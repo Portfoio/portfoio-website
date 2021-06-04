@@ -7,8 +7,18 @@
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <base href="{{ site.baseurl }}">
   <title>{% if page.title %}{{ page.title }} - {% endif %}{{ site.title }}</title>
+  <!-- Meta infos -->
   <meta name="author" content="{{ site.author }}">
   <meta name="description" content="{{ site.description }}">
+  <meta property="og:title" content="{{ page.title }}"/>
+  <meta property="og:url" content="{{ page.url }}"/>
+  <meta property="og:description" content="{{ site.description }}"/>
+  <meta property="og:description" content="{{ site.baseurl }}/assets/images/meta-preview.jpg"/>
+  <meta property="og:type" content="website"/>
+  <meta property=”og:locale” content=”en_US”/>
+
+
+  <!-- Style and Icon -->
   <link rel="shortcut icon" type="image/x-icon" href="{{ site.baseurl }}/favicon.ico"> 
   <link rel="stylesheet" href="{{ site.baseurl }}/css/styles.css">
 
